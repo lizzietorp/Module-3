@@ -1,0 +1,33 @@
+<!--Elizabeth Webb-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strings</title>
+    <script src = "strings.js"></script>
+    <link href = "strings.css" rel = "stylesheet" type = "text/css"/>
+    <!--Here's the links to my jacascript and css files.-->
+</head>
+<body>
+    <br>
+    <form onsubmit = "return false">
+        <!--This line is needed so that you can't return to the page after the form has been submitted.-->
+    <h1>TacoCat Palindromes</h1>
+    <!--I added the header to the form for easier formatting in css.-->
+        Input a palindrome: <input type = "text" id= "firstStr"/>
+        <input type = "submit" onclick = "reverse();"/>
+        <br>
+        <p id = "palin"> Palindrome results:</p>
+        <!--This is the information for the palindrome assignment.-->
+        <br>
+        First Name: <input type = "text" id="firstName"/>
+        Last Name: <input type = "text" id="lastName"/>
+        <br>
+        Zip Code: <input type = "number" id="zipCode"/>
+        <input type = "submit" onclick = "input();"/>
+        <!--This is the information for the user input assignment.-->
+        <p id = "loginStatus"> Please enter a valid first and last name and your zipcode.</p>
+        </form>
+</body>
+</html>

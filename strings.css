@@ -1,0 +1,24 @@
+form
+{
+    color:forestgreen;
+    background-color:#e0c812;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body
+{
+    background-image: url(tacocat.webp);
+    background-repeat: repeat;
+    text-align: center;
+}
+input
+{
+    background-color:hsl(46, 81%, 68%);
+    border-radius: 20 px;
+    padding: 10px 20px
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+    cursor:alias;
+}
